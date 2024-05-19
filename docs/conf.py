@@ -8,6 +8,9 @@ extensions = [
 
 latex_engine = 'xelatex'  # allow us to build Unicode chars
 
+html_static_path = ['_static']
+html_css_files = ['custom.css']
+
 html_theme_options = {
     'style_nav_header_background': 'white',
     # Toc options
@@ -19,7 +22,7 @@ html_theme_options = {
     'dark_mode': True,  # Enable the dark mode toggle
 }
 
-html_static_path = ['_static']
-html_css_files = ['custom.css']
+
+
 # Include all your settings here
 html_theme = 'sphinx_rtd_theme'
